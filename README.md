@@ -30,10 +30,6 @@
   <img src="https://img.shields.io/badge/-GitHub-black?style=flat&logo=github">
   <img src="https://img.shields.io/badge/-Apache Kafka-FFC107?style=flat&logo=apache-kafka&logoColor=black">
 </div>
-<!-- 背景图 -->
-<br />
-<br />
-<img align="right" alt="GIF" src="./assets/bg.png" width="400"/>
 
 <!-- 关于我 -->
 <h2 height="200px" align="center">🎉 About Me</h2>
