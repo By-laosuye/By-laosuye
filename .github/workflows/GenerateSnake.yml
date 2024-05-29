@@ -15,21 +15,20 @@ on:
 
 # 作业, see: https://docs.github.com/zh/actions/using-jobs/using-jobs-in-a-workflow
 jobs:
- # 生成统计图, see: https://github.com/lowlighter/metrics
- github-metrics:
-   runs-on: ubuntu-latest
-   steps:
-     - name: metrics-Half-year-calendar
-       uses: lowlighter/metrics@latest
-       with:
-         base: ""
-         filename: assets/metrics.plugin.isocalendar.svg
-         token: ${{ github.token }}
-         plugin_isocalendar: yes
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
+    # 生成统计图, see: https://github.com/lowlighter/metrics
+      - name: metrics-Half-year-calendar
+        uses: lowlighter/metrics@latest
+        with:
+          base: ""
+          filename: assets/metrics.plugin.isocalendar.svg
+          token: ${{ github.token }}
+          plugin_isocalendar: yes
       # 使用 actions/checkout, see: https://github.com/actions/checkout
       - name: Checkout
         uses: actions/checkout@v3
@@ -51,3 +50,4 @@ jobs:
           branch: main
           default_author: github_actions
           message: 'Generate Contribution Snake'
+  
