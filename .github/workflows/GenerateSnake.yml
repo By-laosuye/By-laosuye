@@ -17,9 +17,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
     # 生成统计图, see: https://github.com/lowlighter/metrics
       - name: metrics-Half-year-calendar
