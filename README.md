@@ -1,4 +1,23 @@
 <!-- 标题 + 个人描述, emoji 取自: http://emojihomepage.com -->
+<div align="center">
+   <!-- dynamic typing effect 动态打字效果 -->
+  <div>
+    <a href="http://www.bilibili.com">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);你好，记得周末愉快哦!&center=true&size=27" />
+    </a>
+  </div>
+
+  <!-- knock code pictures 敲代码的图片 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" height="225px" />
+    <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
+  </picture>
+
+  <!-- for beauty 留个空行好看点 -->
+  <div>&nbsp;</div>
+
+</div>
 <p align="center">
   <h1 height="200px" align="center">
     God dag <img src="https://cdn.jsdelivr.net/gh/MaleWeb/picture/images/techblog/hi.gif" width="25">, I'm Laosuye
@@ -35,11 +54,12 @@
 <h2 height="200px" align="center">🎉 About Me</h2>
 <br />
 
-- 🔭 I’m working hard to learn ~
-- 🏋 I'm passionate about fitness, and it pays off ~
-- 👨‍💻 I'm passionate about coding and have been developing my skill ~
-- ⛺️ I have a private site: [老苏叶的小窝](https://laosuye.gitee.io), you're welcome to come! ~
-- 📨 My email address is `2104690337@qq.com` Welcome to contact me 👏🏻 ~
+- 🔭 嗨，你好，我是老苏叶，一个正在持续学习的菜鸟
+- 💗 喜欢代码，计算机，音乐，游戏，痴迷于学习
+- 🏋 热爱计算机科学和IT互联网事业，希望能成为一名优秀的开发者
+- 👨‍💻 我对编码充满热情，并一直在发展我的技能
+- ⛺️ 欢迎来我的私人小窝[老苏叶的小窝](https://laosuye.gitee.io)
+- 📨 我的邮箱 `2104690337@qq.com` 期待你的联系 👏🏻
 
 <!-- 贪吃蛇 - 图片由 actions/Generate Snake 定时生成 -->
 <picture>
@@ -59,3 +79,6 @@
     </td>
   </tr>
 </table>
+
+<!-- ########################################## 分割 ########################################## -->
+<img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
