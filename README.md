@@ -44,3 +44,10 @@
 - 👨‍💻 I'm passionate about coding and have been developing my skill ~
 - ⛺️ I have a private site: [老苏叶的小窝](https://laosuye.gitee.io), you're welcome to come! ~
 - 📨 My email address is `2104690337@qq.com` Welcome to contact me 👏🏻 ~
+
+<!-- 贪吃蛇 - 图片由 actions/Generate Snake 定时生成 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img width="100%" alt="github-snake" src="./assets/github-snake.svg" />
+</picture>
